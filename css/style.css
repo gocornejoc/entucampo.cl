@@ -54,6 +54,10 @@ body {
   max-width: none;
 }
 
+
+
+
+
 .text-box-description {
   font-size:x-large;
   font-weight: 300;
@@ -67,7 +71,18 @@ body {
   overflow: hidden; /* Oculta el contenido que se desborda */
 }
 
-
+@media (max-width: 767px){
+  .text-box-description{
+  margin-top:0px;
+  font-size:large;
+  font-weight: 100;
+  position: absolute;
+  background: rgba(3, 26, 81, 0.7); /* Fondo oscuro semitransparente */
+  padding: 20px;
+  color: #ffffff;
+  overflow: hidden; /* Oculta el contenido que se desborda */
+  }
+}
 
 
 
@@ -88,8 +103,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 350px; 
-    height: 100%;
+    min-height: 300px; 
+    height:auto;
     
   }
 }
