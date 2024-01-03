@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  background-color: #1a1a1a;
+  color: #ab8e8e;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-brand img {
+  width: 350px; 
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-dark {
+  background-color: #9e9c9c;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #767474;
+}
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px 0;
+}
