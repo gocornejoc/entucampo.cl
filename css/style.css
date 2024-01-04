@@ -12,6 +12,15 @@ body {
   font-size: large;
 }
 
+@media (max-width: 767px) {
+  /* Estilos específicos para tamaños pequeños aquí */
+  .navbar-brand img {
+    max-width: 200px;
+    height: auto;
+    /* Otros estilos específicos para tamaños pequeños */
+  }
+}
+
 .navbar-nav .nav-item {
   position: relative;
 }
@@ -103,7 +112,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 300px; 
+    min-height: 380px; 
     height:auto;
     
   }
