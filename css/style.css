@@ -128,3 +128,36 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   padding: 20px 0;
 }
+
+
+.section-marcas{
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+
+
+
+@media(max-width: 349px){
+  .logo-grid{
+    grid-template-columns: repeat(2, minmax(20px, 1fr));
+   
+  }
+}
+
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.logo-item img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
