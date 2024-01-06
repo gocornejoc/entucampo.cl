@@ -83,6 +83,10 @@ body {
   overflow: hidden;
   }
 }
+.text-box-description h1{
+  font-size: medium;
+  font-weight: 300;
+}
 
 
 
@@ -109,10 +113,7 @@ body {
   }
 }
 
-.section-light h1{
-  color: #ffffff;
-  font-size: x-large;
-}
+
 
 
 h1, h2, h3, h4, h5, h6 {
