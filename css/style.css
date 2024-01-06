@@ -111,6 +111,7 @@ body {
 
 .section-light h1{
   color: #ffffff;
+  font-size: x-large;
 }
 
 
@@ -161,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
 }
 footer{
-  font-size: large;
+  font-size: medium;
   font-weight: 100;
 }
 footer h5{
